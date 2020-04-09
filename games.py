@@ -11,5 +11,5 @@ def pick_a_card():
     return (value, suit)
 
 
-def roll_a_die():
-    return random.randint(6)
+def roll_a_die(n_sides=6):
+    return random.randint(nsides)
