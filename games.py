@@ -13,3 +13,6 @@ def pick_a_card():
 
 def roll_a_die():
     return random.randint(6)
+
+def roll_two_dice()
+    return roll_a_die() + roll_a_die()
