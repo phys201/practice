@@ -14,5 +14,8 @@ def pick_a_card():
 def roll_a_die():
     return random.randint(6) + 1
 
-def roll_two_dice()
+def roll_two_dice():
+    '''
+    rolls two six-sided dice
+    '''
     return roll_a_die() + roll_a_die()
