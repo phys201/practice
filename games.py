@@ -16,3 +16,6 @@ def roll_a_die():
 
 def roll_two_dice()
     return roll_a_die() + roll_a_die()
+
+def roll_three_dice():
+    return roll_a_die() + roll_a_die() + roll_a_die()
