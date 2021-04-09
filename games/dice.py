@@ -2,7 +2,7 @@ from numpy import random
 
 
 def roll_a_die():
-    """this function returns a value 1-6"""
+    """this function returns a value 1-6, hello from alex raun"""
     return random.randint(6) + 1
 
 
