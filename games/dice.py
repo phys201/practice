@@ -1,16 +1,16 @@
 from numpy import random
 
 
-def roll_a_die():
-    """this function returns a value 1-6"""
-    return random.randint(6) + 1
+def roll_a_die(n):
+    """this function returns a value 1-n"""
+    return random.randint(n) + 1
 
 
-def roll_two_dice():
-    """this function returns sum of 2 randomly selected values 1-6"""
-    return roll_a_die() + roll_a_die()
+def roll_two_dice(n):
+    """this function returns sum of 2 randomly selected values 1-n"""
+    return roll_a_die(n) + roll_a_die(n)
 
 
-def roll_three_dice():
-    """this function returns sum of 3 randomly selected values 1-6"""
-    return roll_a_die() + roll_a_die() + roll_a_die()
+def roll_three_dice(n):
+    """this function returns sum of 3 randomly selected values 1-n"""
+    return roll_a_die(n) + roll_a_die(n) + roll_a_die(n)
