@@ -1,6 +1,6 @@
 from numpy import random
 
-
+#nice cards
 def pick_a_card():
     """this function picks a card """
     value = random.randint(1, 14)
