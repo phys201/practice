@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.14.4
+      jupytext_version: 1.19.1
   kernelspec:
     display_name: Python 3 (ipykernel)
     language: python
@@ -37,4 +37,12 @@ Finally, we can pick a random card, which gives us two numbers that we can inter
 
 ```python
 games.pick_a_card()
+```
+
+```python
+games.generate_ticket()
+```
+
+```python
+
 ```
