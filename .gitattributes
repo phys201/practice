@@ -1,4 +1,4 @@
 
-*.ipynb	diff=nbdime
+*.ipynb	diff=jupyternotebook
 
-*.ipynb	merge=nbdime
+*.ipynb	merge=jupyternotebook
