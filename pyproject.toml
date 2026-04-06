@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "phys201-git-practice-repository-games-of-chance"
+version = "0.0.1"
+authors = [
+  { name="Kai Torrens", email="kai_torrens@g.harvard.edu" },
+]
+description = "An example package of games of chance used in the class phys201 in order to teach git"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-only"
+license-files = ["LICENCSE*"]
+
+[project.urls]
+Homepage = "https://github.com/phys201/practice"
